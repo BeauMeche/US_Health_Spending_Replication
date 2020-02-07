@@ -1,0 +1,12 @@
+---
+title: 'Replication: Is Health Spending Excessive?'
+author: "Beau Meche"
+date: "2/7/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Paper Title: <u>"Is Health Spending Excessive? If So, What Can We Do About It?"</u>
