@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r toolbox, warning=FALSE}
+```{r toolbox, echo=FALSE, message=FALSE, warning=FALSE}
 
 # ignoring warnings as ::janitor was built inder a different R version
 
@@ -27,7 +27,7 @@ library(janitor)
 <p>Here is a <u><a href="https://www.healthaffairs.org/doi/pdf/10.1377/hlthaff.28.5.1260">link to the paper</a></u> for reference purposes.</p>
 
 
-```{r milestone_02_necessary, echo=FALSE}
+```{r milestone_02_necessary, message=FALSE, echo=TRUE}
 # load in data and triage if needed
 
 life_exp_OECD <- read.csv("data/life_exp_OECD.stat.csv") %>% 
